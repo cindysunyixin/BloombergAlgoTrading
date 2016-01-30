@@ -71,13 +71,13 @@ public class ExchangeClient {
     double getVotility()
     {return votility;}
     
-    double setNet_worth(double nw)
+    void setNet_worth(double nw)
     {net_worth=nw;}
     
-    double setDividend_Ratio(double dr)
+    void setDividend_Ratio(double dr)
     {dividend_ratio=dr;}
     
-    double setvotility(double vr)
+    void setvotility(double vr)
     {votility=vr;}
     
 
